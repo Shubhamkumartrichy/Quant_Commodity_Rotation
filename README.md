@@ -1,4 +1,4 @@
-# Adaptive Gold–Silver Rotation Strategy using Kalman Filter
+# Adaptive Gold–Silver Rotation Strategy
 
 A quantitative trading strategy that dynamically estimates the relationship between **Gold (GLD)** and **Silver (SLV)** using a **Kalman Filter** and allocates capital to the stronger asset over time.
 
@@ -6,7 +6,7 @@ This project began as a statistical arbitrage (pairs trading) experiment and evo
 
 ---
 
-## 📊 Strategy Overview
+##  Strategy Overview
 
 Gold and Silver are historically correlated commodities.  
 Instead of assuming a fixed relationship, this project models a **time-varying hedge ratio (β)** using a Kalman Filter.
