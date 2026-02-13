@@ -24,7 +24,7 @@ This creates an adaptive rotation strategy that follows the leading metal.
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### Data
 - Source: Stooq (via `pandas-datareader`)
@@ -54,7 +54,7 @@ Signal Rules:
 
 ---
 
-## 📈 Results
+##  Results
 
 ### Equity Curve
 
@@ -62,7 +62,7 @@ Signal Rules:
 
 ---
 
-## 📉 Performance Summary
+##  Performance Summary
 
 | Metric | Value |
 |---|---|
@@ -76,7 +76,7 @@ The adaptive rotation strategy significantly outperformed both individual buy-an
 
 ---
 
-## 🧠 Key Insight
+##  Key Insight
 
 Traditional pairs trading assumes mean reversion between correlated assets.  
 This project demonstrates that:
@@ -87,7 +87,7 @@ The Kalman Filter acts as a real-time estimator of market leadership between Gol
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
@@ -98,7 +98,7 @@ The Kalman Filter acts as a real-time estimator of market leadership between Gol
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 Clone repository:
 
