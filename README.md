@@ -58,7 +58,7 @@ Signal Rules:
 
 ### Equity Curve
 
-![Strategy Output](results/equity_curve.png)
+![Equity Curve](equity_curve.png)
 
 ---
 
@@ -100,8 +100,11 @@ The Kalman Filter acts as a real-time estimator of market leadership between Gol
 
 ## 🚀 How to Run
 
+Clone repository:
+
 ```bash
-git clone https://github.com/<your-username>/kalman-gold-silver-strategy.git
-cd kalman-gold-silver-strategy
+git clone https://github.com/<your-username>/Quant_Commodity_Rotation.git
+cd Quant_Commodity_Rotation
 pip install -r requirements.txt
-python main_strategy.py
+python Strategy.py
+
